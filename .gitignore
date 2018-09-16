@@ -1,9 +1,12 @@
+deploy
+rcc*.cpp
+rcc*.go
+rcc*.qrc
 documentation.list
 harbour-whisperfish
 whisperfish
 RPMS/
 rpmbuilddir/
-vendor/
 moc_*.cpp
 moc_*.go
 moc_*.h
