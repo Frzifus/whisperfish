@@ -7,7 +7,7 @@ Whisperfish is a native `Signal <https://www.whispersystems.org/>`_ client for
 library for Go <https://github.com/aebruno/textsecure>`_ and `Qt binding for Go
 <https://github.com/therecipe/qt>`_.  The user interface is heavily based on
 the jolla-messages application written by Jolla Ltd.
-  
+
 -------------------------------------------------------------------------------
 Project Status
 -------------------------------------------------------------------------------
@@ -51,13 +51,18 @@ Whisperfish reconnects.
 
 To disable late suspend and enable "early suspend" run::
 
-    $ mcetool --set-suspend-policy=early    
+    $ mcetool --set-suspend-policy=early
 
 See here for more information.
 
 1. https://together.jolla.com/question/55056/dynamic-pm-in-jolla/
 2. http://talk.maemo.org/showpost.php?p=1401956&postcount=29
 3. https://sailfishos.org/wiki/Sailfish_OS_Cheat_Sheet#Blocking_Device_Suspend
+
+-------------------------------------------------------------------------------
+Building with docker using qtdeploy from the therecipe/qt project
+-------------------------------------------------------------------------------
+``qtdeploy -docker build sailfish . ``
 
 -------------------------------------------------------------------------------
 Building from source
